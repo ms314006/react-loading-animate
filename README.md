@@ -23,7 +23,7 @@ react-loading-animate is easy to generate animate for loading with React compone
 
 ### Basic Usage
 
-<img src="./docs/assets/gif/simpleDemo.gif" style="width:100%;height:400px;">
+<img src="https://raw.githubusercontent.com/ms314006/react-loading-animate/master/docs/assets/gif/simpleDemo.gif" style="width:100%;height:400px;">
 
 #### Code
 
@@ -58,7 +58,7 @@ const App = () => {
 
 ### Other type of animate
 
-<img src="./docs/assets/gif/demoAllAnimateType.gif" style="width:100%;height:400px;">
+<img src="https://raw.githubusercontent.com/ms314006/react-loading-animate/master/docs/assets/gif/demoAllAnimateType.gif" style="width:100%;height:400px;">
 
 ### Basic Options
 
