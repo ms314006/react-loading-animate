@@ -1,5 +1,5 @@
+docs
 node_modules
-demo
 .eslintrc.js
 .gitignore
 webpack.demo.config.js
