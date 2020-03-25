@@ -6,7 +6,7 @@ const Circle = (props) => {
   const { fill, diameter, gap } = props;
   return (
     <div
-      className={styles.line}
+      className={styles.circle}
       style={{
         background: fill,
         width: diameter,
