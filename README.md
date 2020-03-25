@@ -64,9 +64,9 @@ const App = () => {
 
 Option | Description | Type | Default |
 :--- | :---: | :---: | :---
-type | Have five type of animate, expect accpect `beat`, `bar`, `creeping`, `circle`, `orbiting`. | string | `beat` |
-fill | Main color about animate element. | string | `#4b9cdb` |
-zIndex | Will be set `z-index` of CSS on animate wrapp. | number | `10` |
+type | Have five type of animate, expect accpect `beat`, `bar`, `creeping`, `circle`, `orbiting`. | string | beat |
+fill | Main color about animate element. | string | #4b9cdb |
+zIndex | Will be set `z-index` of CSS on animate wrapp. | number | 10 |
 
 ### Options Of Specialty Animate Type 
 
@@ -74,31 +74,31 @@ zIndex | Will be set `z-index` of CSS on animate wrapp. | number | `10` |
 
 Option | Description | Type | Default |
 :--- | :---: | :---: | :---: |
-diameter | Each circle size of diameter. | number | `15` |
-gap | Gap of each circle | number | `4` |
+diameter | Each circle size of diameter. | number | 15 |
+gap | Gap of each circle | number | 4 |
 
 #### bar
 
 Option | Description | Type | Default |
 :--- | :---: | :---: | :---: |
-width | Each element size of width. | number | `15` |
-gap | Gap of each element | number | `4` |
+width | Each element size of width. | number | 15 |
+gap | Gap of each element | number | 4 |
 
 #### creeping
 
 Option | Description | Type | Default |
 :--- | :---: | :---: | :---: |
-height | Each element size of height. | number | `15` |
-gap | Gap of each element | number | `4` |
+height | Each element size of height. | number | 15 |
+gap | Gap of each element | number | 4 |
 
 #### circle
 
 Option | Description | Type | Default |
 :--- | :---: | :---: | :---: |
-diameter | The circle size of diameter. | number | `15` |
+diameter | The circle size of diameter. | number | 15 |
 
 #### orbiting
 
 Option | Description | Type | Default |
 :--- | :---: | :---: | :---: |
-diameter | The ring size of diameter. | number | `15` |
+diameter | The ring size of diameter. | number | 15 |
