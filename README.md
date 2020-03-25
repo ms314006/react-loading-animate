@@ -1,7 +1,7 @@
 # react-loading-animate
 A simple animate for loading with React component.
 
-Animate style and design reference [this pen](https://codepen.io/Manoz/pen/pydxK), thank [Manoz](https://codepen.io/Manoz)!
+In this React library, All of animate style and design create by [this pen](https://codepen.io/Manoz/pen/pydxK), thank [Manoz](https://codepen.io/Manoz)!
 
 ## Installation
 
@@ -55,3 +55,50 @@ const App = () => {
   );
 };
 ```
+
+### Other type of animate
+
+<img src="./docs/assets/gif/demoAllAnimateType.gif" style="width:100%;height:400px;">
+
+### Basic Options
+
+Option | Description | Type | Default |
+:--- | :---: | :---: | :---
+type | Have five type of animate, expect accpect `beat`, `bar`, `creeping`, `circle`, `orbiting`. | string | `beat` |
+fill | Main color about animate element. | string | `#4b9cdb` |
+zIndex | Will be set `z-index` of CSS on animate wrapp. | number | `10` |
+
+### Options Of Specialty Animate Type 
+
+#### beat
+
+Option | Description | Type | Default |
+:--- | :---: | :---: | :---: |
+diameter | Each circle size of diameter. | number | `15` |
+gap | Gap of each circle | number | `4` |
+
+#### bar
+
+Option | Description | Type | Default |
+:--- | :---: | :---: | :---: |
+width | Each element size of width. | number | `15` |
+gap | Gap of each element | number | `4` |
+
+#### creeping
+
+Option | Description | Type | Default |
+:--- | :---: | :---: | :---: |
+height | Each element size of height. | number | `15` |
+gap | Gap of each element | number | `4` |
+
+#### circle
+
+Option | Description | Type | Default |
+:--- | :---: | :---: | :---: |
+diameter | The circle size of diameter. | number | `15` |
+
+#### orbiting
+
+Option | Description | Type | Default |
+:--- | :---: | :---: | :---: |
+diameter | The ring size of diameter. | number | `15` |
