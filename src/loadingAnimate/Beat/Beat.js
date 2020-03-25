@@ -25,7 +25,7 @@ Circle.propTypes = {
 
 Circle.defaultProps = {
   fill: '#4b9cdb',
-  diameter: 30,
+  diameter: 15,
   gap: 4,
 };
 
