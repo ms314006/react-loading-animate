@@ -4,6 +4,7 @@ import styles from './index.scss';
 
 const Ring = (props) => {
   const { fill, diameter } = props;
+  const THE_BALL_OFFSET_OF_LEFT = 0.37;
   return (
     <div
       className={styles.ring}
@@ -17,7 +18,7 @@ const Ring = (props) => {
         className={styles.ballHolder}
         style={{
           height: diameter,
-          left: diameter * 43 / 100,
+          left: diameter * THE_BALL_OFFSET_OF_LEFT,
         }}
       >
         <div
