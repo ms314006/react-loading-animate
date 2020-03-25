@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './index.scss';
 
-const Circle = (props) => {
+const Ring = (props) => {
   const { fill, diameter } = props;
   return (
     <div
@@ -16,14 +16,16 @@ const Circle = (props) => {
   );
 };
 
-Circle.propTypes = {
+Ring.propTypes = {
   fill: PropTypes.string,
   diameter: PropTypes.number,
 };
 
-Circle.defaultProps = {
+Ring.defaultProps = {
   fill: '#4b9cdb',
   diameter: 15,
 };
+
+const Circle = props => <Ring {...props} />;
 
 export default Circle;

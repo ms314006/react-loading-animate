@@ -2,9 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './index.scss';
 
-const Orbiting = (props) => {
+const Ring = (props) => {
   const { fill, diameter } = props;
-  console.log('props', props);
   return (
     <div
       className={styles.ring}
@@ -30,14 +29,16 @@ const Orbiting = (props) => {
   );
 };
 
-Orbiting.propTypes = {
+Ring.propTypes = {
   fill: PropTypes.string,
   diameter: PropTypes.number,
 };
 
-Orbiting.defaultProps = {
+Ring.defaultProps = {
   fill: '#4b9cdb',
   diameter: 45,
 };
+
+const Orbiting = props => <Ring {...props} />;
 
 export default Orbiting;
