@@ -8,7 +8,7 @@ const Circle = (props) => {
     <div
       className={styles.ring}
       style={{
-        border: `7px dashed ${fill}`,
+        borderColor: fill,
         height: diameter,
         width: diameter,
       }}

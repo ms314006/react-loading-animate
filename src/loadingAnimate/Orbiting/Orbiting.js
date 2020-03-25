@@ -4,11 +4,12 @@ import styles from './index.scss';
 
 const Orbiting = (props) => {
   const { fill, diameter } = props;
+  console.log('props', props);
   return (
     <div
       className={styles.ring}
       style={{
-        border: `4px solid ${fill}`,
+        borderColor: fill,
         height: diameter,
         width: diameter,
       }}
@@ -22,9 +23,7 @@ const Orbiting = (props) => {
       >
         <div
           className={styles.ball}
-          style={{
-            background: fill,
-          }}
+          style={{ background: fill }}
         />
       </div>
     </div>
