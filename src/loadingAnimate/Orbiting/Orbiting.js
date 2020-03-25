@@ -9,9 +9,17 @@ const Orbiting = (props) => {
       className={styles.ring}
       style={{
         border: `4px solid ${fill}`,
+        height: diameter,
+        width: diameter,
       }}
     >
-      <div className={styles.ballHolder}>
+      <div
+        className={styles.ballHolder}
+        style={{
+          height: diameter,
+          left: diameter * 44 / 100,
+        }}
+      >
         <div
           className={styles.ball}
           style={{
@@ -30,7 +38,7 @@ Orbiting.propTypes = {
 
 Orbiting.defaultProps = {
   fill: '#4b9cdb',
-  diameter: 15,
+  diameter: 45,
 };
 
 export default Orbiting;
