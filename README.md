@@ -1,7 +1,7 @@
 # react-loading-animate
 A simple animate for loading with React component.
 
-Animate style and design reference [https://codepen.io/Manoz/pen/pydxK](Animate style and design reference https://codepen.io/Manoz/pen/pydxK), thank [Manoz](https://codepen.io/Manoz)!
+Animate style and design reference [this pen](https://codepen.io/Manoz/pen/pydxK), thank [Manoz](https://codepen.io/Manoz)!
 
 ## Installation
 
