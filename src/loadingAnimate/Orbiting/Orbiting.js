@@ -17,7 +17,7 @@ const Orbiting = (props) => {
         className={styles.ballHolder}
         style={{
           height: diameter,
-          left: diameter * 44 / 100,
+          left: diameter * 43 / 100,
         }}
       >
         <div
