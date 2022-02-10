@@ -14,7 +14,7 @@
     "url": "https://github.com/ms314006/react-loading-animate"
   },
   "dependencies": {
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1"
   },
